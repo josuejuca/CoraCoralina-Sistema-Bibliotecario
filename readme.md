@@ -4,11 +4,36 @@
   <img id="home" src="https://assets-juca.netlify.app/etc-logo.png" alt="Logo ETC">
 </p>
 
-<h1 align="center">TI- Técnico em Informática</h1>
+<div align="center">
+<h3 align="center">Sistema Bibliotecário Cora Coralina </h3>
+  <p align="center">
+    <samp>Software desenvolvido para o TCC na Escola Técnica de Ceilândia.</samp>
+    <br />       
+  </p>
+</div>
 
-<p align="center">
-Repositório para guardar os arquivos do TCC.
-</p>
+## Instalação 
+
+
+
+### Local 
+
+Execute o seguinte comando para clonar o repositório:
+
+```cmd
+git clone https://github.com/josuejuca/CoraCoralina-Sistema-Bibliotecario.git
+cd CoraCoralina-Sistema-Bibliotecario
+```
+
+Prepare o banco de dados MySQL antes de iniciar o sistema. O Script está na pasta /sql/db.sql
+
+Inicie o sistema com o seguinte comando:
+
+```cmd
+php -S localhost:5522
+```
+Agora o sistema está rodando na porta 5522 (http://localhost:5522/)
+
 </div>
 <br>
 
@@ -21,9 +46,4 @@ Repositório para guardar os arquivos do TCC.
 <h4>TI - Turma F - Kalinca Souza Paz</h4>
 </div>
 
-<hr>
-
-<p align="center">
-Essa é a versão final do projeto. 
-</p>
-
+Projeto apresentado dia 28/06/2023 - Auditório 1 ETCDF 
